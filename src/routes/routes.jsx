@@ -7,7 +7,7 @@ import DefaultLayout from "../Layouts/DefaultLayout";
 export default function Router() {
 	return (
 		<Routes>
-			<Route element={<DefaultLayout/>}>
+			<Route element={<DefaultLayout />}>
 				<Route path="/" element={<Home />} />
 				<Route path="/filmes" element={<Movies />} />
 				<Route path="/series" element={<Series />} />
