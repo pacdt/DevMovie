@@ -4,7 +4,7 @@ import Header from "../components/Header/Index";
 export default function DefaultLayout(){
     return(
         <>
-        <Header/>
+        {/* <Header/> */}
         <Outlet/>
         </>
     )

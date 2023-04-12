@@ -22,7 +22,7 @@
 				"printWidth": 80,
 				"tabWidth": 2,
 				"singleQuote": true, // aspas simples
-				"trailingComma": "none", // virgula no fim da linha
+				"trailingComma": false, // virgula no fim da linha
 				"arrowParens": "always",
 				"semi": false, // ponto e virgula no fim da linha
 				"endOfLine": "auto"
