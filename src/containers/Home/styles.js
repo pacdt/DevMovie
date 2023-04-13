@@ -52,3 +52,8 @@ export const Poster = styled.div`
 		width: 300px;
 	}
 `;
+export const ContainerButton = styled.div`
+	display: flex;
+	gap: 20px;
+	margin-top: 20px;
+`

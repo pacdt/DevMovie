@@ -1,6 +1,7 @@
 import api from "../../services/api.js";
-import { Background, Info, Poster, Container } from "./styles.js";
+import { Background, Info, Poster, Container, ContainerButton } from "./styles.js";
 import { useState, useEffect } from "react";
+import Button from "../../components/Button/Index.jsx";
 
 export default function Home() {
 	const [movie, setMovie] = useState();
@@ -23,6 +24,10 @@ export default function Home() {
 						<Info>
 							<h1>{movie.title}</h1>
 							<p>{movie.overview}</p>
+							<ContainerButton>
+								<Button red>Assistir Agora</Button>
+								<Button>Assistir ao Trailer</Button>
+							</ContainerButton>
 						</Info>
 						<Poster>
 							<img
