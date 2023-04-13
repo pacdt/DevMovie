@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../containers/Home/Index.jsx";
 import Movies from "../containers/Movies/Index.jsx";
 import Series from "../containers/Series/Index.jsx";
-import DefaultLayout from "../Layouts/DefaultLayout/DefaultLayout.jsx";
+import DefaultLayout from "../Layouts/DefaultLayout";
 
 export default function Router() {
 	return (
